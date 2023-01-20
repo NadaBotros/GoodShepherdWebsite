@@ -1,0 +1,28 @@
+﻿body {
+    font-family: tahoma,'Noto Kufi Arabic', sans-serif;
+}
+.tdBold{font-weight: bold}
+.tdDotted{border-bottom: 2px dotted gray;padding-bottom: 1px;display: inline-block;float: right}
+#dvMain {
+    width:100%;
+    margin:auto;
+}
+.tdTitle {
+    background-color: #333333;
+    font-size: large;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align:center;
+}
+@media print {
+  .btnExportButton {
+    display: none !important;
+  }
+}
+.btnExportButton {
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    background-color: white;
+    border: 2px solid gray;
+}

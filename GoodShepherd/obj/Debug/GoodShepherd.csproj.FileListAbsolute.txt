@@ -1,0 +1,122 @@
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojResolveAssemblyReference.cache
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\DAL.dll
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\DAL.pdb
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\DAL.dll
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\bin\DAL.pdb
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojResolveAssemblyReference.cache
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojResolveAssemblyReference.cache
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\Gma.QrCodeNet.Encoding.Net35.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\Gma.QrCodeNet.Encoding.Net35.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\GoodShepherd\bin\Gma.QrCodeNet.Encoding.Net35.xml
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.pdb
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojResolveAssemblyReference.cache
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll.config
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DAL.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojResolveAssemblyReference.cache
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\DAL.dll
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\DAL.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\DAL.dll.config
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojAssemblyReference.cache
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Projects\Knessa\New folder\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojAssemblyReference.cache
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll.config
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\GoodShepherd.dll
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\GoodShepherd.pdb
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\DAL.dll
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\DAL.pdb
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\DAL.dll.config
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csprojAssemblyReference.cache
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csproj.CoreCompileInputs.cache
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\PackUp-Projects\El-Ra3iii\GoodShepherd\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\obj\Debug\GoodShepherd.csprojAssemblyReference.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-2\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\obj\Debug\GoodShepherd.csprojAssemblyReference.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\obj\Debug\GoodShepherd.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\GoodShepherd.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\DropDownCheckBoxes.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\bin\DropDownCheckBoxes.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\obj\Debug\GoodShepherd.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\obj\Debug\GoodShepherd.csproj.CopyComplete
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\obj\Debug\GoodShepherd.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\obj\Debug\GoodShepherd.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\GoodShepherd\obj\Debug\GoodShepherd.csproj.AssemblyReference.cache

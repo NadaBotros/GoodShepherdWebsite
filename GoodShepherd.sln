@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodShepherd", "GoodShepherd\GoodShepherd.csproj", "{F5822140-861F-4BDB-B910-BFF9AC40B2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7E14E678-ACE9-4449-868A-9B0D0F537F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownCheckBoxes", "DropDownCheckBoxes\DropDownCheckBoxes.csproj", "{D9FF4ED2-BB22-47E9-84C4-F98A21C76898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5822140-861F-4BDB-B910-BFF9AC40B2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5822140-861F-4BDB-B910-BFF9AC40B2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5822140-861F-4BDB-B910-BFF9AC40B2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5822140-861F-4BDB-B910-BFF9AC40B2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E14E678-ACE9-4449-868A-9B0D0F537F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E14E678-ACE9-4449-868A-9B0D0F537F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E14E678-ACE9-4449-868A-9B0D0F537F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E14E678-ACE9-4449-868A-9B0D0F537F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FF4ED2-BB22-47E9-84C4-F98A21C76898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FF4ED2-BB22-47E9-84C4-F98A21C76898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FF4ED2-BB22-47E9-84C4-F98A21C76898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FF4ED2-BB22-47E9-84C4-F98A21C76898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

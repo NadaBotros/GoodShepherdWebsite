@@ -1,0 +1,337 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Site" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head runat="server">
+    <title>اجتماع الراعي الصالح بكنيسة السيدة العذراء والقديس اثناسيوس الرسولى بمدينة نصر</title>
+   <asp:Literal runat="server" ID="ltrCurrentTheme"></asp:Literal>   
+   <%-- <link href="themes/Default/StyleSheet.css" rel="stylesheet" />--%>
+    <link href="/themes/Default/menu/css/superfish.css" rel="stylesheet" />
+ 
+    <link href="Styles/fonts/fonts.css" rel="stylesheet" />
+    
+    <script src="themes/Default/Slider/js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="themes/Default/menu/js/hoverIntent.js"></script>
+    <script type="text/javascript" src="themes/Default/menu/js/superfish.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery('ul.sf-menu').superfish();
+            $('#btnSizePlus').click(function () {
+                $('.SiteText').css("font-size", "16px");
+                $('#sitecontent_lblArticleText').css("height", "148px");
+                $('#sitecontent_lblStoryText').css("height", "148px");
+                $('.txt3').css("font-size", "15px");
+            });
+            $('#btnSizeReg').click(function () {
+                $('.SiteText').css("font-size", "14px");
+                $('#sitecontent_lblArticleText').css("height", "153px");
+                $('#sitecontent_lblStoryText').css("height", "153px");
+                $('.txt3').css("font-size", "13px");
+            });
+            $('#btnSizeMin').click(function () {
+                $('.SiteText').css("font-size", "13px");
+                $('#sitecontent_lblArticleText').css("height", "145px");
+                $('#sitecontent_lblStoryText').css("height", "145px");
+                $('.txt3').css("font-size", "12px");
+            });
+
+            $('.imgGallery').hover(function () {
+                $('.imgGallery').stop().animate({ "opacity": 0.7 });
+                $(this).stop().animate({ "opacity": 1.0 });
+            }, function () { $('.imgGallery').stop().animate({ "opacity": 1.0 }); });
+        });
+
+
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93924516-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <style type="text/css">
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+    <meta name="description" content="اجتماع الراعي الصالح بكنيسة السيدة العذراء والقديس اثناسيوس الرسولى بمدينة نصر" />
+    <meta name="keywords" content="مدينة نصر, اجتماع الاسرة,اجتماع العائلة المقدسة, الكتاب المقدس,بحث الكتاب المقدس ,قراءات الكنيسة,قطمارس اليوم
+مدرسة الشمامسة,شمامسة,كنيسة,شخصيات الكتاب المقدس,يوتيوب كنسي,يوتيوب الشمامسة,الحان كنسية,لحن,عظات,تاملات,مكتبة تنزيلات,تحميل,عظة,قداس
+        ,مواعيد,المعلم صادق,تليفزيون الشمامسة,تليفزيون كنسي,قصص مسيحية,البابا شنودة,اسئلة واجابات,امتحانات الشمامسة,قطمارس اليوم,انجيل اليوم,اجبية,سنكسار,سنكسار اليوم,الدفنار,الكتاب المقدس
+        ,برنامج الاجتماع,مسابقة الاجتماع,المكتبة الصوتية,المكتبة المرئية,المكتبة الكتابية,اجتماع الراعي,البوم صور الاجتماع,عظات الاجتماع,اجتماع الراعي الصالح , اصحاح,سفر,اعياد السنة," />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="dvSiteContent">
+            <div class="dvFullWidth dvTopHeader">
+                <div class="dvSite">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <asp:Label runat="server" CssClass="title1" Style="line-height: 32px; vertical-align: middle; float: right" ID="lblDate"></asp:Label>
+                            </td>
+                            <td valign="top">
+                                <table style="float: left;" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="padding-left: 7px; vertical-align: middle">
+                                            <a href="#" id="btnSizeReg" class="lnk1" title="حجم الخط الطبيعي">R</a>
+                                        </td>
+                                        <td style="padding-left: 7px; direction: ltr; vertical-align: middle">
+                                            <a href="#" id="btnSizeMin" class="lnk1" title="تصغير حجم الخط">A-</a>
+                                        </td>
+                                        <td style="padding-left: 9px; direction: ltr; vertical-align: middle">
+                                            <a href="#" id="btnSizePlus" title="زيادة حجم الخط" class="lnk1">A+</a>
+                                        </td>
+                                        <td>
+                                            <div class="dvSearch">
+                                                <asp:TextBoxWatermarkExtender TargetControlID="txtSearch" WatermarkText="بحث ..." ID="TextBoxWatermarkExtender1" runat="server"></asp:TextBoxWatermarkExtender>
+                                                <asp:TextBox CssClass="txtSearch" Style="float: right; padding-left: 3px" SkinID="12" runat="server" ID="txtSearch"></asp:TextBox>
+                                                <asp:ImageButton runat="server" Style="padding-top: 1px; float: right" ID="btnSaerch" ImageUrl="~/themes/Default/img/btnSearch.jpg" OnClick="btnSaerch_Click" />
+                                            </div>
+                                        </td>
+                                        <td style="padding-right: 24px">
+                                            <asp:LinkButton CssClass="btnLogin title1" OnClick="btnLogin_Click" runat="server" Text="دخول المستخدم" ID="btnLogin"></asp:LinkButton>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="dvFullWidth dvBanner">
+                <div class="dvSite" style="padding-bottom: 20px;">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td valign="top">
+                                <div class="dvChurch">
+                                    <img src="themes/Default/img/Church.png" />
+                                </div>
+                            </td>
+                            <td>
+                                <img style="float: left" class="imgelra3y" src="themes/Default/img/ElRa3y.png" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div id="dvMenu">
+                                    <ul class="sf-menu">
+                                        <li class="current">
+                                            <a style="line-height: 46px; padding-top: 0px; padding-bottom: 0px" href="Default.aspx">الرئيسية</a>
+
+                                        </li>
+                                        <li>
+                                            <a style="line-height: 46px; padding-top: 0px; padding-bottom: 0px" href="#">كنيستنا</a>
+                                            <ul>
+                                                <li class="current"><a href="ChurchHistory.aspx">مواقع الكنيسة</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="http://www.sm-sa.org/" target="_blank">الموقع الرسمي للكنيسة</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="http://athanasiusdeacons.net/" target="_blank">موقع مدرسة الشمامسة</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="http://maryholyfamily.com/" target="_blank">موقع اجتماع الاسرة</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="http://shepherdmeeting.com/" target="_blank">موقع الراعي الصالح</a>
+                                                        </li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="current"><a href="ChurchHistory.aspx">تاريخ الكنيسة</a></li>
+                                                <li><a href="ChurchFathers.aspx">كهنة الكنيسة</a></li>
+                                                <li><a href="ChurchActivities.aspx">انشطة الكنيسة</a></li>
+                                                <li><a href="ChurchMeetingsSchedule.aspx">مواعيد خدمات الكنيسة</a></li>
+                                                <li><a href="ChurchPopVisitingaspx.aspx">زيارات الاباء البطاركة</a></li>
+                                                <li>
+                                                            <a href="WebsiteAlbums.aspx" >البوم الصور</a>
+                                                        </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">اجتماع<br />
+                                                الراعى</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="MeetingStarting.aspx">بدء الاجتماع</a>
+                                                </li>
+                                                <li>
+                                                    <a href="MeetingServants.aspx">خدام الاجتماع</a>
+                                                </li>
+                                                <li>
+                                                    <a href="MeetingActivities.aspx">الرحلات والانشطة</a>
+                                                </li>
+                                                 <li>
+                                                    <a href="ContactUs.aspx">اتصل بنا</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="MeetingSpeakers.aspx">متكلمي<br />
+                                                الاجتماع</a>
+                                        </li>
+                                        <li>
+                                            <a href="Sound.aspx">عظات<br />
+                                                الاجتماع</a>
+                                        </li>
+                                        <li style="margin-right: 172px;">
+                                            <a href="MeetingMagazine.aspx">مجلة<br />
+                                                الاجتماع</a>
+                                        </li>
+                                        <li>
+                                            <a href="MeetingQuiz.aspx">مسابقة<br />
+                                                الاجتماع</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">مكتبة<br />
+                                                الاجتماع</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="documentsLibrary.aspx">المكتبة الكتابية</a>
+                                                </li>
+                                                <li>
+                                                    <a href="SoundLibrary.aspx">المكتبة الصوتية</a>
+                                                </li>
+                                                <li>
+                                                    <a href="videosLibrary.aspx">المكتبة المرئية</a>
+                                                </li>
+                                                <li><a href="Albums.aspx">البوم الذكريات</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="News.aspx">اخبار<br />
+                                                الاجتماع</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">أعمال<br />
+                                                الرحمة</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="Pages.aspx?id=10">الرحمة و بركات الرحمة</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">الخدمات</a>
+                                                    <ul>
+                                                        <li><a href="Pages.aspx?id=11">بولس الرسول لتعبئة الشنط</a></li>
+                                                        <li><a href="Pages.aspx?id=12">السامري الصالح</a></li>
+                                                        <li><a href="Pages.aspx?id=13">أبونا فلتاؤس السرياني للمرضى</a></li>
+                                                        <li><a href="Pages.aspx?id=14">القديس بطرس و سيلا للسجون</a></li>
+                                                        <li><a href="Pages.aspx?id=15">الأنبا موسى الأسود للأسر المستورة</a></li>
+                                                        <li><a href="Pages.aspx?id=16">عرس قانا الجليل لتجهيز العرائس</a></li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="dvSite" style="margin-top: -118px">
+                    <div  class="dvLogo">
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="sitecontent" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="dvFullWidth dvFooter1">
+                <div class="dvSite">
+                    <table cellpadding="0" width="100%" cellspacing="0" style="float: left; direction: ltr">
+                        <tr>
+                            <td>
+                                <div class="dvContacts" style="float: left">
+                                    <table style="padding-top: 14px; padding-right: 18px; float: right">
+                                        <tr>
+                                            <td>
+                                                <span id="lblContacts">تواصل معنا</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding-top: 5px; direction: rtl">
+                                                <asp:TextBox runat="server" ID="txtAddToContacts" SkinID="210" CssClass="txt2"></asp:TextBox>
+
+                                                <asp:TextBoxWatermarkExtender ID="watercontacts" TargetControlID="txtAddToContacts" runat="server" WatermarkText="اكتب بريدك الالكتروني"></asp:TextBoxWatermarkExtender>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-bottom: 10px;">
+                                                <asp:RequiredFieldValidator Display="Dynamic" ID="reqConfirm" runat="server" ErrorMessage="*" ControlToValidate="txtAddToContacts"
+                                                    ValidationGroup="11"></asp:RequiredFieldValidator>
+                                                <asp:RegularExpressionValidator SetFocusOnError="true" Display="Dynamic" ID="reqLoginEmail" ValidationGroup="11" ControlToValidate="txtAddToContacts"
+                                                    runat="server" Text="Error" ErrorMessage="خطا" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                                <asp:LinkButton runat="server" OnClick="btnSaveContacts_Click" ValidationGroup="11" ID="btnSaveContacts" Text="ارسل" Style="float: left" CssClass="btnLogin title1"></asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                            <td id="tdFooterRight">
+                                <table cellpadding="0" class="tblFooter" cellspacing="0" style="float: right; width: 721px; padding-left: 100px; direction: rtl">
+                                    <tr>
+                                        <td>
+                                            <a href="Default.aspx">الرئيسية</a>
+                                        </td>
+                                        <td class="FooterSib">|</td>
+                                        <td>
+                                            <a href="Sound.aspx">عظات الاجتماع</a>
+                                        </td>
+                                        <td class="FooterSib">|</td>
+                                        <td>
+                                            <a href="MeetingMagazine.aspx">مجلة الاجتماع</a>
+                                        </td>
+                                        <td class="FooterSib">|</td>
+                                        <td>
+                                            <a href="MeetingQuiz.aspx">مسابقة الاجتماع</a>
+                                        </td>
+                                        <td class="FooterSib">|</td>
+                                        <td>
+                                            <a href="MeetingProgram.aspx">برنامج الاجتماع</a>
+                                        </td>
+                                        <td class="FooterSib">|</td>
+                                        <td>
+                                            <a href="Albums.aspx">البوم الذكريات</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="dvFullWidth dvFooter2">
+                <div class="dvSite">
+                    <table style="margin: auto; width: 450px">
+                        <tr>
+                            <td><span class="txtFooter2">جميع الحقوق محفوظة اجتماع الراعي 2013 - برمجة 
+                            </span></td>
+                            <td>
+                                <a class="txtFooter2" href="mailto:amgad_gam@yahoo.com?Subject=01229464974">م / امجد جمال</a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

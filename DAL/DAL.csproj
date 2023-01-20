@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E14E678-ACE9-4449-868A-9B0D0F537F48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivitiesManage.cs" />
+    <Compile Include="AdminManagement.cs" />
+    <Compile Include="AlbumImageManagement.cs" />
+    <Compile Include="AlbumManagement.cs" />
+    <Compile Include="CityManagement.cs" />
+    <Compile Include="AreaManagement.cs" />
+    <Compile Include="ActivitySectionsManagement.cs" />
+    <Compile Include="ActivitySectionUserManagement.cs" />
+    <Compile Include="ActivityUsersManagement.cs" />
+    <Compile Include="CSVExporter.cs" />
+    <Compile Include="LibraryFilesManage.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SiteTreeManage.cs" />
+    <Compile Include="DateToCoptic.cs" />
+    <Compile Include="db.designer.cs">
+      <DependentUpon>db.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="HomeManage.cs" />
+    <Compile Include="LibraryManage.cs" />
+    <Compile Include="SaveValuesManage.cs" />
+    <Compile Include="SpiritualTrainingManage.cs" />
+    <Compile Include="MeetingArchiveManage.cs" />
+    <Compile Include="QuizWinnersManage.cs" />
+    <Compile Include="QuizManage.cs" />
+    <Compile Include="MeetingManage.cs" />
+    <Compile Include="SpeakersManage.cs" />
+    <Compile Include="MagazineStoryManage.cs" />
+    <Compile Include="MagazineManage.cs" />
+    <Compile Include="NewsManagement.cs" />
+    <Compile Include="NewsTypesManagement.cs" />
+    <Compile Include="PersonAttendManagement.cs" />
+    <Compile Include="ReportManagement.cs" />
+    <Compile Include="ServantVisitsManagement.cs" />
+    <Compile Include="ServantPersonsManagement.cs" />
+    <Compile Include="PersonHobbiesManagement.cs" />
+    <Compile Include="FamilyManagement.cs" />
+    <Compile Include="PersonManagement.cs" />
+    <Compile Include="HobbiesManagement.cs" />
+    <Compile Include="Extend.cs" />
+    <Compile Include="GeneralMethods.cs" />
+    <Compile Include="HomeGalleryManagement.cs" />
+    <Compile Include="ImagesFact.cs" />
+    <Compile Include="ImageSizesManagement.cs" />
+    <Compile Include="Letter.cs" />
+    <Compile Include="PageSectionManagement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityHelper.cs" />
+    <Compile Include="ServantAftkadManagement.cs" />
+    <Compile Include="SubscribeManage.cs" />
+    <Compile Include="VisitorManagement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="db.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>db.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="db.dbml.layout">
+      <DependentUpon>db.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

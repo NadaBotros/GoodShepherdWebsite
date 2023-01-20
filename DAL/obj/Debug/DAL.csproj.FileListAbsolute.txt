@@ -1,0 +1,54 @@
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.dll
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.pdb
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\obj\Debug\DAL.dll
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\obj\Debug\DAL.pdb
+H:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.dll
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\bin\Debug\DAL.pdb
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\obj\Debug\DAL.dll
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\obj\Debug\DAL.pdb
+F:\My Work\Free Lancer\Websites Source\GoodShepherd\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Amgad\Sites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+D:\Amgad\Sites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.pdb
+D:\Amgad\Sites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.dll
+D:\Amgad\Sites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.pdb
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.pdb
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.dll
+D:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\bin\Debug\DAL.pdb
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.dll
+E:\Work\FreeLancer\Websites\Source Code\GoodShepherd\DAL\obj\Debug\DAL.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\obj\Debug\DAL.dll
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\obj\Debug\DAL.pdb
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\bin\Debug\DAL.dll
+D:\Projects\Knessa\New folder\GoodShepherd\DAL\bin\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\bin\Debug\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\bin\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\bin\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\obj\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\GoodShepherd\DAL\obj\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\bin\Debug\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\bin\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\bin\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\obj\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-4\DAL\obj\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\bin\Debug\DAL.dll.config
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\bin\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\bin\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\obj\Debug\DAL.dll
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\obj\Debug\DAL.pdb
+D:\Projects\Knessa\El-Ra3ii\Edits-ElRa3ii\Edit-5\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache

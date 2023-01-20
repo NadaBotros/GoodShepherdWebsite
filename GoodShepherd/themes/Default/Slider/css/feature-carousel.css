@@ -1,0 +1,94 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+.carousel-container {
+  position:relative;
+  width:960px;
+}
+#carousel {
+  height:280px;
+  width:960px;
+  
+  position:relative;
+  margin-bottom:0.5em;
+  font-size:12px;
+  font-family: Arial;
+}
+.carousel-image {
+  border:0;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+  display:block;
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  
+  cursor:pointer;
+}
+.carousel-feature .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url('../../img/TransBg.png');
+    background-repeat: repeat;
+}
+.carousel-feature .carousel-caption p {
+  margin:0;
+  padding:5px 20px 5px 20px;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+}
+.tracker-summation-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:230px;
+  padding:3px;
+  margin:3px;
+  background-color:black;
+  display:none;
+}
+.tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+}
+.tracker-individual-container li {
+  list-style:none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+  background-color:#a5a08c;
+}
+
+#carousel-left {
+  position:absolute;
+  bottom:117px;
+  left:0px;
+  cursor:pointer;
+  opacity:1.0;
+}
+#carousel-left:hover 
+{
+    opacity:0.5;
+}
+
+#carousel-right {
+  position:absolute;
+  bottom:117px;
+  right:0px;
+  cursor:pointer;
+}
+#carousel-right:hover 
+{
+    opacity:0.5;
+}

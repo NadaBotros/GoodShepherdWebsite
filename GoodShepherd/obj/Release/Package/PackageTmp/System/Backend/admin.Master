@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="System.Backend.admin" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="http://fonts.googleapis.com/earlyaccess/notokufiarabic.css" rel="stylesheet" type="text/css" />
+    <link href="/System/Backend/lib/css/admin.css" rel="stylesheet" type="text/css" />
+    <link href="/System/Backend/lib/css/gridview.css" rel="stylesheet" type="text/css" />
+    <link href="/System/Backend/lib/css/lib/bootstrap.css" rel="stylesheet">
+    <link href="/System/Backend/lib/css/lib/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/System/Backend/lib/css/extension.css" rel="stylesheet">
+    <link href="/System/Backend/lib/css/boo.css" rel="stylesheet">
+    <link href="/System/Backend/lib/css/boo-coloring.css" rel="stylesheet">
+    <link href="/System/Backend/lib/css/boo-utility.css" rel="stylesheet">
+    <script src="/System/Backend/lib/plugins/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.min.js"></script>
+    <script src="/System/Backend/lib/js/lib/jquery.js"></script>
+
+    <script src="/System/Backend/lib/js/jquery.quicksearch.js" type="text/javascript"></script>
+    <script src="/System/Backend/lib/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="/System/Backend/lib/tooltip/jquery.tipTip.js" type="text/javascript"></script>
+    <script src="/System/Backend/lib/tooltip/jquery.tipTip.minified.js" type="text/javascript"></script>
+    <link href="/System/Backend/lib/tooltip/tipTip.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function ShowOptions(control, args) {
+            control._completionListElement.style.zIndex = 10000001;
+        }
+        $(function () {
+            $(".tip_right_top").tipTip({ maxWidth: "auto", edgeOffset: 2 });
+        });
+        function load() { Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler); }
+        function EndRequestHandler() {
+            $(".tip_right_top").tipTip({ maxWidth: "auto", edgeOffset: 2 });
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".grd").tablesorter(); //for sorting gridview
+            $(".tbltab").css("width", $(window).width() - 40);
+            $('.txtSearch').quicksearch('table.grd tbody tr'); //search at gridview
+            $('.dvtabs').parent().removeClass('dvPageContent');
+            $('.dvtabs').parent().addClass('dvtabPageContent');
+            $('.dvtabs').parent().css('background', 'url("../img/background/body-bg-02-15.jpg") repeat scroll 0 0');
+
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <!-- main js -->
+        <script src="lib/js/application.js"></script>
+        <!-- Only This Demo Page -->
+        <script src="/System/Backend/lib/js/demo/demo-dashboard1.js"></script>
+        <div id="main-content" class="main-content container-fluid">
+            <div class="row-fluid page-head">
+                <asp:ContentPlaceHolder ID="CPHPageHeader" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="dvPageContent">
+                <asp:ContentPlaceHolder ID="CPHContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

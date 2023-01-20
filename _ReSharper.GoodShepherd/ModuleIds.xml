@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="7E14E678-ACE9-4449-868A-9B0D0F537F48" ModuleId="DAL" />
+  <Module PersistentId="F5822140-861F-4BDB-B910-BFF9AC40B2DD" ModuleId="GoodShepherd" />
+  <Module PersistentId="D9FF4ED2-BB22-47E9-84C4-F98A21C76898" ModuleId="DropDownCheckBoxes" />
+</Modules>

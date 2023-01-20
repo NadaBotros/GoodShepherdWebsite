@@ -1,0 +1,61 @@
+﻿
+<asp:DropDownList  runat="server" CssClass="drplist" ></asp:DropDownList>
+<asp:DropDownList  runat="server" SkinId="drpwList"  CssClass="drpwlist" ></asp:DropDownList>
+<asp:DropDownList  runat="server" SkinId="drpSmall"  CssClass="drpSmallList" ></asp:DropDownList>
+
+<asp:TextBox  runat="server"  CssClass="text" ></asp:TextBox>
+<asp:TextBox  runat="server" SkinId="textSmall" CssClass="textSmall" ></asp:TextBox>
+<asp:TextBox  runat="server" SkinId="txtSearch"  CssClass="txtSearch" ></asp:TextBox>
+<asp:TextBox  runat="server"  SkinId="txtmult"  CssClass="txtmult" ></asp:TextBox>
+<asp:TextBox  runat="server"  SkinId="txtsite"  CssClass="txt32" ></asp:TextBox>
+
+ <asp:RadioButtonList CssClass="rad" runat="server" RepeatDirection="Horizontal"></asp:RadioButtonList>
+  <asp:RadioButton CssClass="rdbtn" runat="server" />       
+ <asp:CheckBoxList CssClass="Check" RepeatDirection="Horizontal" runat="server"> </asp:CheckBoxList>
+ <asp:Button runat="server" CssClass="btncss"  />
+  <asp:Button runat="server" SkinId="btnRaduis" CssClass="btnpatient"  />
+
+<asp:GridView runat="server" AllowPaging="true"  AutoGenerateColumns="False"  Width="100%"  PageSize="25">
+        <AlternatingRowStyle CssClass="altrowstyle" />
+                            <HeaderStyle CssClass="headerstyle" />
+                             <FooterStyle  CssClass="footerstyle"/>
+                            <RowStyle CssClass="rowstyle" />
+                              
+        
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>
+<asp:GridView runat="server" AllowPaging="false"   AutoGenerateColumns="False" SkinId="grdnotPag"  Width="100%"  PageSize="25">
+        <AlternatingRowStyle CssClass="altrowstyle" />
+                            <HeaderStyle CssClass="headerstyle" />
+                             <FooterStyle  CssClass="footerstyle"/>
+                            <RowStyle CssClass="rowstyle" />
+                            
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>
+<asp:GridView runat="server" AllowPaging="false" CssClass="grd"  AutoGenerateColumns="False" SkinId="grdsite"  Width="100%"  PageSize="25">
+        <AlternatingRowStyle CssClass="altrowstyle" />
+                            <HeaderStyle CssClass="headerstyle" />
+                             <FooterStyle  CssClass="footerstyle"/>
+                            <RowStyle CssClass="rowstyle" />
+                            
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>
+<asp:GridView runat="server" AllowPaging="false" CssClass="grd"  AutoGenerateColumns="False" SkinId="grdsite2"    PageSize="25">
+        <AlternatingRowStyle CssClass="altrowstyle2" />
+                           
+                            <RowStyle CssClass="rowstyle2" />
+                            
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>
+<asp:GridView runat="server" AllowPaging="false" CssClass="grd"  AutoGenerateColumns="False" SkinId="grdsite3"    PageSize="25">
+        <AlternatingRowStyle CssClass="altrowstyle3" />
+<RowStyle CssClass="rowstyle3" />
+                            
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>
+<asp:GridView runat="server" AllowPaging="false" CssClass="grd"  AutoGenerateColumns="False" SkinId="grdsite4"    PageSize="10">
+        <AlternatingRowStyle CssClass="altrowstyle3" />
+<RowStyle CssClass="rowstyle3" />
+                <HeaderStyle CssClass="headerstyle4" />             
+            <PagerStyle CssClass="Grid-Paging" />
+</asp:GridView>

@@ -1,0 +1,697 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    background-position: right 32px;
+    /*background-image: url('img/SiteBg.jpg');*/
+    background-repeat: repeat-x;
+    background-color: white;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+  background-color:#fd0101;
+}
+
+.dvProgram {
+    background-image: url('img/Program.png');
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 42px;
+}
+.dvFooter2 {
+    height: 35px;
+    background-color: #fd0101;
+}
+.SiteText div {
+    padding: 3px;
+}
+#carousel-left {
+    background-image:url('img/GalleryBack.png');
+    background-repeat:no-repeat;
+    width:24px;
+    height:64px;
+}
+#carousel-right {
+    background-image:url('img/GalleryNext.png');
+    background-repeat:no-repeat;
+    width:24px;
+    height:64px;
+}
+.imgelra3y {
+    display: none;
+}
+.dvLogo {
+    width: 172px;
+    height: 170px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    background-image: url('img/Logo.png');
+}
+#dvSiteContent {
+    background-image: url('img/Header.jpg');
+    background-position: center 29px;
+    background-repeat: no-repeat;
+    
+}
+
+#tdFooterRight {
+    background-image: url('img/FooterBg.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.dvimg {
+width: 74px;
+height: 64px;
+background-color: #fd0101;
+margin: 2px;
+float: left;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+text-align: center;
+}
+.reqstar {
+    color: red;
+}
+
+a.lnk33 {
+    text-decoration: none;
+}
+
+    a.lnk33:hover {
+        text-decoration: underline;
+    }
+
+.numeric_button {
+    background-color: #fd0101;
+    color: white;
+    padding: 2px;
+    padding: 2px 5px 2px 5px;
+}
+.Grid-Paging a{
+  background-color: #fd0101;
+    color: white;
+    padding: 2px;
+    padding: 2px 5px 2px 5px;
+}
+.Grid-Paging a:hover{
+     background-color: #deddbc;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+}
+.current_page {
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+}
+
+.last_button {
+    background-color: #fd0101;
+    color: #FFFFFF;
+    padding: 2px 5px 2px 5px;
+}
+
+.lnkImage img {
+    background-color: white;
+    border: 1px solid #fd0101;
+}
+
+.dvWhite {
+    background-color: white;
+}
+
+.tdView {
+    width: 155px;
+    color: #1b1b1b;
+    padding: 5px;
+    background-color: #F0F0F0;
+}
+
+    .tdView a {
+        font-weight: bold;
+        font-size: 13px;
+        color: #fd0101;
+    }
+
+.dvMagSee {
+    display: block;
+    width: 24px;
+    height: 13px;
+    background-image: url('img/see.png');
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 21px;
+    margin-top: 5px;
+}
+
+.dvMagDownlaod {
+    display: block;
+    width: 17px;
+    height: 22px;
+    background-image: url('img/Download.png');
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 10px;
+}
+
+.owl-item {
+    width: 110px;
+}
+
+#owl-demo .item {
+    background: #e5e5e5;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #FFF;
+    width: 110px;
+    text-align: center;
+}
+
+#dvGalleryNext {
+    background-image: url('img/MagNext.jpg');
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+#dvGalleryBack {
+    background-image: url('img/MagBack.jpg');
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+/*use styles below to disable ugly selection*/
+.customNavigation a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.grd {
+    width: 100%;
+    border: 0px;
+    border-collapse: separate;
+    border-spacing: 5px 0px;
+}
+
+    .grd td {
+        border: 0px;
+    }
+
+.altrowstyle2, .altrowstyle2 a {
+    color: #333333;
+    font-size: 12px;
+    font-family: 'ge_ss_twomedium';
+}
+
+.rowstyle2 {
+    background-image: url('img/GridViewRowBg.png');
+    background-repeat: repeat;
+}
+
+.altrowstyle2 td {
+    padding-right: 10px;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.rowstyle2 td {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.rowstyle2, .rowstyle2 a {
+    color: #333333;
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    font-family: 'ge_ss_twomedium';
+    background-repeat: repeat;
+}
+
+
+
+.altrowstyle3, .altrowstyle3 a {
+    color: #333333;
+    font-size: 10px;
+    width: 100%;
+    display: block;
+    font-family: 'ge_ss_twomedium';
+}
+
+.rowstyle3, .rowstyle3 a {
+    color: white;
+}
+
+.altrowstyle3 td {
+    padding-right: 10px;
+    text-align: right;
+    padding-top: 2px;
+    font-family: 'ge_ss_twomedium';
+    width: 160px;
+    font-size: 10px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+
+.rowstyle3 td {
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'ge_ss_twomedium';
+    width: 160px;
+    text-align: right;
+    font-size: 10px;
+    background-color: gray;
+}
+
+    .rowstyle3 td:hover, .altrowstyle3 td:hover {
+        color: white;
+        background-color: #fd0101;
+    }
+
+.altrowstyle3 a:hover {
+    color: white;
+}
+
+.altrowstyle {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'ge_ss_twomedium';
+    background-image: url('img/GridViewRowBg.png');
+    background-repeat: repeat;
+}
+
+    .altrowstyle td {
+        padding-right: 19px;
+        text-align: right;
+    }
+
+.rowstyle td {
+    padding-right: 19px;
+    text-align: right;
+}
+
+.rowstyle {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'ge_ss_twomedium';
+    background-repeat: repeat;
+}
+
+.headerstyle {
+    border: 0px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fd0101;
+    color: white;
+    font-size: 18px;
+    font-family: 'ge_ss_twomedium';
+}
+
+.headerstyle4 {
+    border: 0px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fd0101;
+    color: white;
+    font-size: 12px;
+    font-family: 'ge_ss_twomedium';
+}
+
+.headerstyle th {
+    border: 0px;
+}
+
+.dvMainPageTitle {
+    width: 100%;
+    height: 51px;
+    position: relative;
+}
+
+.dvPageTitle {
+    background-position: left center;
+    width: 420px;
+    height: 38px;
+    background-color: #fd0101;
+    color: white;
+    line-height: 38px;
+    vertical-align: middle;
+    padding-right: 45px;
+    font-size: 16px;
+    font-family: 'ge_ss_twomedium';
+    
+    background-repeat: no-repeat;
+}
+
+.dvTitleBg {
+    background-position: right top;
+    margin-top: -38px;
+    height: 51px;
+    width: 678px;
+    background-image: url('img/Header.png');
+    background-repeat: no-repeat;
+}
+
+.dvTitle {
+    width: 633px;
+    height: 38px;
+    background-color: #fd0101;
+    color: white;
+    line-height: 38px;
+    vertical-align: middle;
+    padding-right: 45px;
+    font-size: 16px;
+    font-family: 'ge_ss_twomedium';
+}
+
+.dvPageTitleBg {
+    background-position: right top;
+    margin-top: -38px;
+    height: 51px;
+    background-image: url('img/Header.png');
+    background-repeat: no-repeat;
+}
+
+.SiteText {
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: normal;
+    color: #1b1b1b;
+    text-align: right;
+}
+
+.news img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.readmore-js-toggle, .readmore-js-section {
+    display: block;
+    width: 100%;
+    color: #1b1b1b;
+}
+
+.readmore-js-toggle {
+    float: left;
+    text-align: left;
+}
+
+.readmore-js-section {
+    overflow: hidden;
+}
+
+.siteTitle {
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b1b1b;
+}
+
+.title3 {
+    color: #1b1b1b;
+    font-size: 14px;
+    display: inline-block;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.txt3 {
+    color: #1b1b1b;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: normal;
+    display: block;
+    margin-top: 5px;
+}
+
+.imgCollapsible {
+    left: 20px;
+    position: absolute;
+    top: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pnlCollapsible {
+    background-position: right top;
+    font-size: 18px;
+    color: white;
+    font-family: 'ge_ss_twomedium';
+    height: 51px;
+    position: relative;
+    cursor: pointer;
+    width: 204px;
+    background-color: #fd0101;
+    line-height: 51px;
+    margin-top: 17px;
+    vertical-align: middle;
+    /*background-image: url('img/TitlesBg.png');*/
+    background-repeat: repeat;
+}
+
+    .pnlCollapsible span {
+        padding-right: 14px;
+    }
+
+.pnlCollapsibleContent, .pnlCollapsibleContent a {
+    padding: 11px 11px 0px 11px;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.tblFooter, .tblFooter a {
+    vertical-align: top;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+    .tblFooter a:hover {
+        text-decoration: underline;
+    }
+
+.FooterSib {
+    padding: 4px;
+}
+
+.txt2 {
+    width: 188px;
+    height: 28px;
+    border: 1px solid #1b1b1b;
+    color: black;
+    font-size: 15px;
+    font-family: 'ge_ss_twomedium';
+    padding: 3px;
+}
+.txt32 {
+    width: 300px;
+    height: 14px;
+    border: 1px solid gray;
+    color: black;
+    font-size: 13px;
+    font-family: Tahoma;
+    padding: 3px;
+    text-align:right;
+}
+.txt22 {
+    width: 190px;
+    height: 14px;
+    border: 1px solid gray;
+    color: black;
+    font-size: 13px;
+    font-family: Tahoma;
+    padding: 3px;
+    text-align:right;
+}
+
+#lblContacts {
+    color: #1b1b1b;
+    font-size: 15px;
+    font-family: 'ge_ss_twomedium';
+    text-align: right;
+}
+
+.dvContacts {
+    width: 230px;
+    height: 124px;
+    background-color: white;
+}
+
+.txtFooter2, .txtFooter2 a {
+    font-family: Tahoma;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+}
+
+.btnLogin {
+    padding-left: 6px;
+    color: white;
+    padding-right: 6px;
+    line-height: 32px;
+    background-color: #fd0101;
+    display: inline-block;
+}
+
+    .btnLogin:hover {
+        background-color: #cdcb8d;
+    }
+
+.txtSearch {
+    height: 23px;
+    line-height: 23px;
+    font-family: Tahoma;
+    font-size: 14px;
+    border: 0px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 150px;
+    color: #2e2e2e;
+}
+
+#dvMenu {
+    width: 100%;
+    height: 46px;
+    background-color: #fd0101;
+    /*background-image: url('img/TitlesBg.png');*/
+    background-repeat: repeat;
+}
+
+.tdVertical {
+    /*background-image: url('img/VirtBg.png');*/
+    background-color: #efefea;
+}
+
+.tdVertical2 {
+    background-image: url('img/VirtBg.png');
+}
+
+#tdPageContent2 {
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 26px;
+    background-color: white;
+    vertical-align: top;
+    padding-bottom: 21px;
+    width: 691px;
+}
+
+#tdPageContent {
+    width: 472px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.dvVertical {
+    width: 205px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+
+.title2 {
+    color: #fd0101;
+    font-size: 22px;
+    font-family: 'ge_ss_twomedium';
+}
+
+.dvChurch {
+    margin-top: 15px;
+    margin-bottom: 34px;
+    width: 248px;
+    float: right;
+
+}
+
+.dvJesus {
+    background-image: url('img/Jesus.png');
+    background-repeat: no-repeat;
+    background-position: left -34px;
+    height: 365px;
+    margin-right: -5px;
+}
+
+.dvFullProgram {
+    background-color: #dadad9;
+}
+
+
+
+.dvBanner {
+    padding-bottom: 5px;
+}
+
+.dvSearch {
+    border-top: 1px solid #828282;
+    border-bottom: 1px solid #828282;
+    background-color: white;
+    height: 23px;
+}
+
+.lnk1 {
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+}
+
+.title1 {
+    font-family: 'ge_ss_twomedium';
+    font-size: 14px;
+    color: white;
+}
+
+img {
+    border: 0px;
+}
+
+.dvSite {
+    width: 960px;
+    margin: auto;
+}
+
+.dvFullWidth {
+    width: 100%;
+}
+
+.dvTopHeader {
+    background-color: #2e2e2e;
+    height: 32px;
+}
+#dvMainSite
+{
+    background-image: url('img/BG.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}

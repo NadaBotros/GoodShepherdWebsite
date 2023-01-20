@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Report.master.cs" Inherits="System.Backend.Report" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../../lib/css/gridview.css" rel="stylesheet" />
+    <link href="../../lib/css/SiteReport.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="dvMain">
+            <table style="width: 100%;direction:rtl" cellpadding="3" cellspacing="3">
+                <tr>
+                    <td class="tdTitle" style="text-align:center;padding:3px">
+                        <asp:ContentPlaceHolder ID="CPHTitle" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="CPHContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
